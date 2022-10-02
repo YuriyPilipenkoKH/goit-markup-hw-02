@@ -555,6 +555,8 @@ body {
     line-height: 36px;
     letter-spacing: 0.06em;
     margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     color: #212121;
     
 }
@@ -566,8 +568,8 @@ body {
     line-height: 30px;
     letter-spacing: 0.03em;
     margin-left: 25px;
+    margin-top: 5px;
     color: #757575;
-    
 }
 .image1 {
     position: absolute;
@@ -577,6 +579,7 @@ body {
     top: 262px;
     border: 1px solid #EEEEEE;
     float: left;
+    
 }
 .image2 {
     position: absolute;
