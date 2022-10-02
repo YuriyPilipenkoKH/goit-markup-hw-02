@@ -113,6 +113,12 @@ body {
     text-decoration: none;
     color: #757575;    
 }
+.top1:hover,
+.top2:hover,
+.top3:hover,
+.top4:hover {
+    color: #2196f3;
+  }
 .main {
     position: absolute;
     width: 1600px;
@@ -380,8 +386,16 @@ body {
     height: 252px;
     left: 0px;
     top: 2094px;
-    padding-top: 60px;
+    padding-top: 90px;
     background-color: #2F303A;
+}
+.footer2 {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background-color: #2F303A;    
 }
 .address {
     
@@ -394,7 +408,7 @@ body {
     width: 231px;
     height: 21px;
     left: 215px;
-    top: 110px;
+    top: 140px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -412,7 +426,7 @@ body {
     width: 231px;
     height: 21px;
     left: 215px;
-    top: 140px;
+    top: 170px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -431,7 +445,7 @@ body {
     width: 231px;
     height: 21px;
     left: 215px;
-    top: 170px;
+    top: 200px;
     
     font-family: 'Roboto';
     font-style: normal;
