@@ -15,7 +15,7 @@ body {
     width: 145px;
     height: 31px;
     left: 215px;
-    bottom: 25px;
+    top: 25px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -25,6 +25,21 @@ body {
     color: #2196F3;
     text-decoration: none;
 
+}
+.logo1-down {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 90px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;    
 }
 .logo2 {
     color: #000000;    
@@ -405,7 +420,7 @@ body {
     height: 252px;
     left: 0px;
     top: 2094px;
-    padding-top: 90px;
+    padding-top: 50px;
     background-color: #2F303A;
 }
 
