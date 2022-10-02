@@ -244,8 +244,8 @@ display: inline;
     padding:0;
     display:block;
     list-style-type: none;
-border: 1px solid black;
-padding: 0;
+    border: 1px solid black;
+    
 
     position: absolute;
     width: 1170px;
@@ -278,6 +278,106 @@ padding: 0;
     height: 294px;
     left: 60px;
     top: 92px;
-    float:left;
+    float:left;   
+}
+.team {
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1446px;
+    background-color: #F5F4FA;
+    border: 1px solid black;
         
+}
+.team-tytle {
+    position: absolute;
+    width: 280px;
+    height: 42px;
+    left: 668px;
+    top: 94px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;    
+}
+.team-list {
+    position: absolute;
+    width: 1170px;
+    height: 368px;
+    left: 215px;
+    top: 186px;
+    float:left;
+    list-style-type: none;
+    padding: 0px;
+    
+}
+.card1 {
+    position: relative;
+    width: 270px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    float:left;   
+}
+.card2 {
+    position: relative;
+    width: 270px;
+    height: 260px;
+    left: 30px;
+    top: 0px;
+    float:left;       
+}
+.card3 {
+    position: relative;
+    width: 270px;
+    height: 260px;
+    left: 60px;
+    top: 0px;
+    float:left;    
+}
+.card4 {
+    position: relative;
+    width: 270px;
+    height: 260px;
+    left: 90px;
+    top: 0px;
+    float:left;     
+}
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    
+}
+.position {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+     color: #757575;    
+}
+.description {
+    position: relative;
+    height: 99px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
+    top: -5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
 }
