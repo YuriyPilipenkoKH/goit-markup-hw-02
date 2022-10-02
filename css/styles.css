@@ -409,19 +409,9 @@ body {
     padding-top: 90px;
     background-color: #2F303A;
 }
-.footer2 {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
-    background-color: #2F303A;    
-}
-.address {
-    
+
+.address {  
     list-style-type: none;
-
-
 }
 .map {
     position: absolute;
@@ -551,4 +541,121 @@ body {
     left: 957px;
     top: 174px;
         
+}
+.image-list {
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+.image-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    margin-left: 25px;
+    color: #212121;
+    
+}
+.image-attribute {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    margin-left: 25px;
+    color: #757575;
+    
+}
+.image1 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    border: 1px solid #EEEEEE;
+    float: left;
+}
+.image2 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+    border: 1px solid #EEEEEE;
+    float: left;
+}
+.image3 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 262px;
+    border: 1px solid #EEEEEE;
+    float: left;
+}
+.image4 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 696px;
+    border: 1px solid #EEEEEE;
+    float: left;
+}
+.image5 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 696px;
+    border: 1px solid #EEEEEE;
+    float: left;
+}
+.image6 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 696px;
+    border: 1px solid #EEEEEE;
+    float: left;
+}
+.image7 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 1130px;    
+    border: 1px solid #EEEEEE;
+    float: left;
+}
+.image8 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 1130px;    
+    border: 1px solid #EEEEEE;
+    float: left;
+}
+.image9 {
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 1130px;
+    border: 1px solid #EEEEEE;
+    float: left;
+}
+.footer2 {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background-color: #2F303A;   
+    padding-top: 80px; 
 }
