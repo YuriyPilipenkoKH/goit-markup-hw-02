@@ -120,8 +120,9 @@ display: inline;
     height: 600px;
     left: 0px;
     top: 80px;
+    background: #2F303A;
     
-    background: #2F303A;    
+      
 }
 .slogan {
     position: absolute;
@@ -162,4 +163,60 @@ display: inline;
     border-radius: 4px;
     border: 1px solid #2196f3;        
     
+}
+.benefits {
+    visibility: hidden;
+}
+.features {
+    display: inline;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;    
+    color: #212121;  
+
+}
+.feature1 {
+    position: absolute;
+    width: 270px;
+    height: 98px;
+    left: 215px;
+    top: 774px;
+}
+.feature2 {
+    position: absolute;
+    width: 270px;
+    height: 74px;
+    left: 515px;
+    top: 774px;      
+}
+.feature3 {
+    position: absolute;
+    width: 270px;
+    height: 74px;
+    left: 815px;
+    top: 774px;      
+}
+.feature4 {
+    position: absolute;
+    width: 270px;
+    height: 98px;
+    left: 1115px;
+    top: 774px;        
+}
+.benefit {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #757575;    
 }
