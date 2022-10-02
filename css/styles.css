@@ -7,8 +7,7 @@ body {
     width: 1600px;
     height: 80px;
     left: 0px;
-    top: 0px;
-    padding-top: 25px;    
+    top: 0px; 
     border: 1px solid #ececec;
 }
 .logo1 {
@@ -16,7 +15,7 @@ body {
     width: 145px;
     height: 31px;
     left: 215px;
-    
+    bottom: 25px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
