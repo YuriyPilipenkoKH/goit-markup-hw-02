@@ -53,7 +53,6 @@ body {
     color: var(--main-background);    
 }
 .nav,.contacts {
-
     list-style-type: none;
 }
 
@@ -62,7 +61,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    list-style-type: none;
     text-decoration: none;
     color: var(--main-color); 
 }
@@ -71,7 +69,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    list-style-type: none;
     text-decoration: none;
     color: var(--main-color);    
 }
@@ -80,7 +77,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    list-style-type: none;
     text-decoration: none;    
     color: var(--main-color);   
 }
@@ -89,7 +85,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    list-style-type: none;
     text-decoration: none;     
     color: var(--contact);
         
@@ -99,7 +94,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    list-style-type: none;
     text-decoration: none;
     color: var(--contact);    
 }
@@ -127,13 +121,14 @@ body {
     color: var(--main-background);
 }
 .order-button {
+    font-family: inherit;
     color: var(--main-background);  
     align-items: center;
     letter-spacing: 0.06em;
     background-color: var(--button);
     border-radius: 4px;
-    border: 1px solid var(--button);        
-    
+    border-color: transparent;
+
 }
 .order-button:hover,
 .order-button:focus {
@@ -155,22 +150,18 @@ body {
     list-style-type: none;
     text-decoration: none;    
     color: var(main-color);  
-
 }
-/*
-.feature1 {
-
+.feature1,
+.feature2,
+.feature3,
+.feature4  {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
 }
-.feature2 {
-     
-}
-.feature3 {
-     
-}
-.feature4 {
-       
-}
-*/
 .benefit {
     font-weight: 400;
     font-size: 14px;
@@ -214,21 +205,20 @@ body {
 .team-list {
     list-style-type: none;   
 }
+/*
 .card1 {
 
 }
 .card2 {
-
-      
+    
 }
 .card3 {
-
     
 }
 .card4 {
-
   
 }
+*/
 .name {
     font-weight: 500;
     font-size: 16px;
@@ -241,7 +231,7 @@ body {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-     color: var(--contact);    
+    color: var(--contact);    
 }
 .description {
     background-color: var(--main-background);
@@ -253,8 +243,6 @@ body {
     box-sizing: border-box;
     background: var(--footer);
     border: 1px solid var(logo2);
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .address {  
@@ -274,7 +262,6 @@ body {
     line-height: 1.71;
     text-decoration: none;
     letter-spacing: 0.03em;
-    
     color: var(--mail);
     
 }
@@ -296,6 +283,7 @@ body {
 .button3,
 .button4,
 .button5 {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -304,7 +292,7 @@ body {
     color: var(--main-color);
     background-color: var(--team);
     border-radius: 4px;
-    border: 1px solid var(--team);  
+    border-color: transparent;  
 }
 .button1:hover,
 .button2:hover,
@@ -340,13 +328,14 @@ body {
 */
 .image-list {
     list-style-type: none;
-    text-decoration: none;
+
 }
 .image-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-decoration: none;
     color: var(--main-color);
     
 }
@@ -355,8 +344,11 @@ body {
     font-size: 16px;
     line-height: 1.85;
     letter-spacing: 0.03em;
+    
     color: var(--contact);
+    text-decoration: none;
 }
 .image-item {
+    
     border: 1px solid var(--image-border);    
 }
