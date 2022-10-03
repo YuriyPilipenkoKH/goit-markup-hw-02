@@ -275,6 +275,12 @@ body {
     letter-spacing: 0.03em;
     color: var(--mail);
 }
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+    color: var(--button);
+}
 /*Портфоліо*/
 .button-list {
     list-style-type: none;
@@ -292,6 +298,7 @@ body {
     background-color: var(--team);
     border-radius: 4px;
     border-color: transparent;  
+    cursor: pointer;
 }
 
 .menu-button:hover,
@@ -304,24 +311,28 @@ body {
 
 .image-list {
     list-style-type: none;
-   
+    text-decoration: none;
 }
 .image-item {
-    border: 1px solid var(--image-border);    
+    border: 1px solid var(--image-border);
 }
-.er {
+.image-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--main-color); 
-    text-decoration: none; 
+    color: var(--main-color);
+    
 }
-.attribute {
+
+.image-attribute {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.85;
     letter-spacing: 0.03em;
     color: var(--contact);
+    
+}
+.sas {
     text-decoration: none;
 }
