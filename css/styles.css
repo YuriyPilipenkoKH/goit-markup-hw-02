@@ -4,7 +4,6 @@
     --button: #2196F3;
     --footer: #2F303A;
     --button-active:#188CE8 ;
-    --logo: ;
     --logo2: #000000;
     --contact: #757575;
     --team: #F5F4FA;
@@ -55,7 +54,9 @@ body {
 .nav,.contacts {
     list-style-type: none;
 }
-
+.nav .current {
+    color: var(--button);
+}
 .top1 {
     font-weight: 500;
     font-size: 14px;
@@ -128,6 +129,7 @@ body {
     background-color: var(--button);
     border-radius: 4px;
     border-color: transparent;
+    cursor: pointer;
 
 }
 .order-button:hover,
@@ -278,12 +280,9 @@ body {
     list-style-type: none;
     text-decoration: none;
 }
-.button1,
-.button2,
-.button3,
-.button4,
-.button5 {
+.menu-button {
     font-family: inherit;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -294,61 +293,35 @@ body {
     border-radius: 4px;
     border-color: transparent;  
 }
-.button1:hover,
-.button2:hover,
-.button3:hover,
-.button4:hover,
-.button5:hover,
-.button1:focus,
-.button2:focus,
-.button3:focus,
-.button4:focus,
-.button5:focus {
+
+.menu-button:hover,
+.menu-button:focus {
     background: var(--button);
     color: #FFFFFF;
     border-radius: 4px;
     border: 1px solid var(--button);  
 }
-/*
-.button1 {
 
-}
-.button2 {
-
-}
-.button3 {
-    
-}
-.button4 {
-   
-}
-.button5 {
-
-}
-*/
 .image-list {
     list-style-type: none;
-
+   
 }
-.image-name {
+.image-item {
+    border: 1px solid var(--image-border);    
+}
+.er {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-decoration: none;
-    color: var(--main-color);
-    
+    color: var(--main-color); 
+    text-decoration: none; 
 }
-.image-attribute {
+.attribute {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.85;
     letter-spacing: 0.03em;
-    
     color: var(--contact);
     text-decoration: none;
-}
-.image-item {
-    
-    border: 1px solid var(--image-border);    
 }
