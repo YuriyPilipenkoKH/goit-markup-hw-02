@@ -1,512 +1,310 @@
+:root {
+    --main-color: #212121;
+    --main-background: #ffffff;
+    --button: #2196F3;
+    --footer: #2F303A;
+    --button-active:#188CE8 ;
+    --logo: ;
+    --logo2: #000000;
+    --contact: #757575;
+    --team: #F5F4FA;
+    --mail: rgba(255, 255, 255, 0.6);
+    --line: #ececec;
+    --box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    --image-border: #EEEEEE;
+
+}
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+    background-color: var(--main-background);
 }
 .header {
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px; 
-    border: 1px solid #ececec;
+
+    border: 1px solid var(--line);
 }
 .logo1 {
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 25px;
-    font-family: 'Raleway';
+
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--button);
     text-decoration: none;
 
 }
 .logo1-down {
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 60px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--button);
     text-decoration: none;    
 }
 .logo2 {
-    color: #000000;    
+    color: var(--logo2);    
 }
 
 .logo3 {
-    color: #ffffff;    
+    color: var(--main-background);    
 }
 .nav,.contacts {
-    float: left;
+
     list-style-type: none;
 }
 
 .top1 {
-    position: absolute;
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     list-style-type: none;
     text-decoration: none;
-    color: #212121; 
+    color: var(--main-color); 
 }
 .top2 {
-    position: absolute;
-    width: 72px;
-    height: 16px;
-    left: 548px;
-    top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     list-style-type: none;
     text-decoration: none;
-    color: #212121;    
+    color: var(--main-color);    
 }
 .top3 {
-    position: absolute;
-    width: 64px;
-    height: 16px;
-    left: 670px;
-    top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     list-style-type: none;
     text-decoration: none;    
-    color: #212121;   
+    color: var(--main-color);   
 }
 .top4 {
-    position: absolute;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     list-style-type: none;
     text-decoration: none;     
-    color: #757575;
+    color: var(--contact);
         
 }
 .top5 {
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     list-style-type: none;
     text-decoration: none;
-    color: #757575;    
+    color: var(--contact);    
 }
 .top1:hover,
 .top2:hover,
 .top3:hover,
 .top4:hover,
+.top5:hover,
 .top1:focus,
 .top2:focus,
 .top3:focus,
-.top4:focus {
-    color: #2196f3;
+.top4:focus,
+.top5:focus {
+    color: var(--button);
   }
 .main {
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background: #2F303A;
-    
-      
+    background: var(--footer);    
 }
 .slogan {
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 200px;
-    margin-top: 0px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    
-    text-align: center;
+    line-height: 1.36;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
+    text-transform: uppercase; 
+    color: var(--main-background);
 }
 .order-button {
-    position: absolute;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;    
-    margin-top: 0px;
-    left: 692px;
-    top: 350px;
-    width: 216px;
-    height: 50px;
-    color: #212121;  
+    color: var(--main-background);  
     align-items: center;
     letter-spacing: 0.06em;
-    background-color: #F5F4FA;
+    background-color: var(--button);
     border-radius: 4px;
-    border: 1px solid #F5F4FA;        
+    border: 1px solid var(--button);        
     
 }
 .order-button:hover,
 .order-button:focus {
-    color: #ffffff;
-    background-color: #2196F3;
+    color: var(--main-background);
+    background-color: var(--button-active);
     border-radius: 4px;
-    border: 1px solid #2196f3;   
+    border: 1px solid var(--button-active);   
 }
 
 .invisible {
     visibility: hidden;
 }
 .features {
-    display: inline;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     list-style-type: none;
     text-decoration: none;    
-    color: #212121;  
+    color: var(main-color);  
 
 }
+/*
 .feature1 {
-    position: absolute;
-    width: 270px;
-    height: 98px;
-    left: 215px;
-    top: 774px;
+
 }
 .feature2 {
-    position: absolute;
-    width: 270px;
-    height: 74px;
-    left: 515px;
-    top: 774px;      
+     
 }
 .feature3 {
-    position: absolute;
-    width: 270px;
-    height: 74px;
-    left: 815px;
-    top: 774px;      
+     
 }
 .feature4 {
-    position: absolute;
-    width: 270px;
-    height: 98px;
-    left: 1115px;
-    top: 774px;        
+       
 }
+*/
 .benefit {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-transform: initial;
-    color: #757575;    
+    color: var(--contact);    
 }
 .work {
-    position: absolute;
-    width: 400px;
-    height: 42px;
-    left: 617px;
-    top: 966px;
-    margin-top: 0px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+    line-height: 1.16;
     letter-spacing: 0.03em;
-    
-    color: #212121;    
+    color: var(main-color);    
 }
 .work-type {
-    float:left;
-    margin: 0;
-    padding:0;
-    display:block;
     list-style-type: none;
-    position: absolute;
-    width: 1170px;
-    height: 386px;
-    left: 215px;
-    top: 966px;
 }
-
+/*
 .work1 {
-    position:relative;
-    width: 370px;
-    height: 294px;
-    left: 0px;
-    top: 92px;
-    float:left;
+
 }
- 
 .work2 {
-    position:relative;
-    width: 370px;
-    height: 294px;
-    left: 30px;
-    top: 92px;
-    float:left;
+
 }
 .work3 {
-    position:relative;
-    width: 370px;
-    height: 294px;
-    left: 60px;
-    top: 92px;
-    float:left;   
+  
 }
+*/
 .team {
-    position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1446px;
-    background-color: #F5F4FA;       
+    background-color: var(--team);       
 }
 .team-tytle {
-    position: absolute;
-    width: 280px;
-    height: 42px;
-    left: 668px;
-    top: 94px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;    
+    color: var(--main-color);    
 }
 .team-list {
-    position: absolute;
-    width: 1170px;
-    height: 368px;
-    left: 215px;
-    top: 186px;
-    float:left;
-    list-style-type: none;
-    padding: 0px;
-    
+    list-style-type: none;   
 }
 .card1 {
-    position: relative;
-    width: 270px;
-    height: 260px;
-    left: 0px;
-    top: 0px;
-    margin: 0px;
-    float:left;   
+
 }
 .card2 {
-    position: relative;
-    width: 270px;
-    height: 260px;
-    left: 30px;
-    top: 0px;
-    float:left;       
+
+      
 }
 .card3 {
-    position: relative;
-    width: 270px;
-    height: 260px;
-    left: 60px;
-    top: 0px;
-    float:left;    
-}
-.card4 {
-    position: relative;
-    width: 270px;
-    height: 260px;
-    left: 90px;
-    top: 0px;
-    float:left;     
-}
-.name {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: #212121;
+
     
 }
+.card4 {
+
+  
+}
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
 .position {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
-     color: #757575;    
+     color: var(--contact);    
 }
 .description {
-    position: relative;
-    height: 99px;
-    text-align: center;
-    padding-top: 10px;
-    margin: 0px;
-    top: -5px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: var(--main-background);
+    box-shadow: var(--box-shadow);
     border-radius: 0px 0px 4px 4px;
 
 }
 .footer {
     box-sizing: border-box;
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
-    
-    background: #2F303A;
-    border: 1px solid #000000;
+    background: var(--footer);
+    border: 1px solid var(logo2);
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .address {  
     list-style-type: none;
 }
-.map {
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 110px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
+.map {  
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     text-decoration: none;
-    
-    letter-spacing: 0.03em;
-    
-    color: #FFFFFF;
+    letter-spacing: 0.03em;  
+    color: var(--main-background);
 }
 .mail {
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 140px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     text-decoration: none;
-    
     letter-spacing: 0.03em;
     
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--mail);
     
 }
 .tel {
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 170px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     text-decoration: none;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--mail);
 }
 /*Портфоліо*/
 .button-list {
-    float: left;
     list-style-type: none;
     text-decoration: none;
 }
-
 .button1,
 .button2,
 .button3,
 .button4,
 .button5 {
-    float: left;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--main-color);
+    background-color: var(--team);
     border-radius: 4px;
-    border: 1px solid #F5F4FA;  
+    border: 1px solid var(--team);  
 }
 .button1:hover,
 .button2:hover,
@@ -518,164 +316,47 @@ body {
 .button3:focus,
 .button4:focus,
 .button5:focus {
-    background: #2196F3;
+    background: var(--button);
     color: #FFFFFF;
     border-radius: 4px;
-    border: 1px solid #2196f3;  
+    border: 1px solid var(--button);  
 }
+/*
 .button1 {
-    position: absolute;
-    width: 73px;
-    height: 38px;
-    left: 512px;
-    top: 174px;
+
 }
 .button2 {
-    position: absolute;
-    width: 125px;
-    height: 38px;
-    left: 593px;
-    top: 174px;
+
 }
 .button3 {
-    position: absolute;
-    width: 112px;
-    height: 38px;
-    left: 726px;
-    top: 174px;    
+    
 }
 .button4 {
-    position: absolute;
-    width: 103px;
-    height: 38px;
-    left: 846px;
-    top: 174px;    
+   
 }
 .button5 {
-    position: absolute;
-    width: 130px;
-    height: 38px;
-    left: 957px;
-    top: 174px;
-        
+
 }
+*/
 .image-list {
-    float: left;
     list-style-type: none;
     text-decoration: none;
 }
 .image-name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
-    margin-left: 25px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    color: #212121;
+    color: var(--main-color);
     
 }
 .image-attribute {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.85;
     letter-spacing: 0.03em;
-    margin-left: 25px;
-    margin-top: 5px;
-    color: #757575;
+    color: var(--contact);
 }
-.image1 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
-    border: 1px solid #EEEEEE;
-    float: left;
-    
-}
-.image2 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 262px;
-    border: 1px solid #EEEEEE;
-    float: left;
-}
-.image3 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 262px;
-    border: 1px solid #EEEEEE;
-    float: left;
-}
-.image4 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 696px;
-    border: 1px solid #EEEEEE;
-    float: left;
-}
-.image5 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 696px;
-    border: 1px solid #EEEEEE;
-    float: left;
-}
-.image6 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 696px;
-    border: 1px solid #EEEEEE;
-    float: left;
-}
-.image7 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 1130px;    
-    border: 1px solid #EEEEEE;
-    float: left;
-}
-.image8 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 1130px;    
-    border: 1px solid #EEEEEE;
-    float: left;
-}
-.image9 {
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 1130px;
-    border: 1px solid #EEEEEE;
-    float: left;
-}
-.footer2 {
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
-    background-color: #2F303A;   
-
+.image-item {
+    border: 1px solid var(--image-border);    
 }
