@@ -18,17 +18,19 @@ body {
     color: var(--main-color);
     background-color: var(--main-background);
 }
+/*
 .header {
 
     border: 1px solid var(--line);
 }
+*/
 .logo1 {
 
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     letter-spacing: 0.03em;
     color: var(--button);
     text-decoration: none;
@@ -123,6 +125,13 @@ body {
 }
 .order-button {
     font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     color: var(--main-background);  
     align-items: center;
     letter-spacing: 0.06em;
@@ -144,14 +153,7 @@ body {
     visibility: hidden;
 }
 .features {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     list-style-type: none;
-    text-decoration: none;    
-    color: var(main-color);  
 }
 .feature1,
 .feature2,
@@ -311,20 +313,24 @@ body {
 
 .image-list {
     list-style-type: none;
-    text-decoration: none;
+
 }
 .image-item {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-decoration: none;
     color: var(--main-color);   
     border: 1px solid var(--image-border);
-    text-decoration: none;
+    
 }
 .image-name {
-
-    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);  
 }
 
 .image-attribute {
@@ -332,9 +338,5 @@ body {
     font-size: 16px;
     line-height: 1.85;
     letter-spacing: 0.03em;
-    color: var(--contact);
-    
-}
-.sas {
-    text-decoration: none;
+    color: var(--contact);  
 }
