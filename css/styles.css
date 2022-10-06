@@ -170,6 +170,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
+    
 }
 .benefit {
     font-size: 14px;
@@ -307,7 +308,7 @@ body {
 .menu-button:focus {
     background-color: var(--button);
     color: var(--main-background);
-     
+
 }
 
 .image-list {
